@@ -10,3 +10,4 @@
 2. Страница регистрации и покупки продукта. Перейти к ней можно по адресу http://localhost:8080/buy
 ![](https://github.com/maleinos/Web-service-Spring-MVC-RESTful-/blob/master/buy.jpg)
 3. Страница с прайсом продуктов. Перейти к ней можно по адресу http://localhost:8080/price
+![]()
