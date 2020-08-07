@@ -5,9 +5,13 @@
 Для автоматизации сборки проекта использовала фреймворк Maven. А также создала все нужные шаблоны для сайта с помощью фреймворка Bootstrap
 
 
-1. Главная страница. Перейти к ней можно по адресу http://localhost:8080/
+1. Главная страница. Перейти к ней можно по адресу http://localhost:8080/ или http://localhost:8080/home
 ![](https://github.com/maleinos/Web-service-Spring-MVC-RESTful-/blob/master/Bellerophon.jpg)
+Кнопки Buy, Home, Price, Learn more, View details(3) ведут к нужным URL сайта, остальные пока в доработке. 
+
 2. Страница регистрации и покупки продукта. Перейти к ней можно по адресу http://localhost:8080/buy
 ![](https://github.com/maleinos/Web-service-Spring-MVC-RESTful-/blob/master/buy.jpg)
+
+
 3. Страница с прайсом продуктов. Перейти к ней можно по адресу http://localhost:8080/price
-![]()
+![](https://github.com/maleinos/Web-service-Spring-MVC-RESTful-/blob/master/price.jpg)
