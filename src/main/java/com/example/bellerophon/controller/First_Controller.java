@@ -14,6 +14,11 @@ public class First_Controller {
         return "home";
     }
 
+    @GetMapping("/home")
+    public String start(Model model) {
+        model.addAttribute("title", "ттллтол");
+        return "home";
+    }
     @GetMapping("/buy")
     public String buy(Model model) {
         model.addAttribute("title", "ттллтол");

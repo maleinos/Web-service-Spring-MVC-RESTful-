@@ -9,9 +9,10 @@ import org.springframework.web.reactive.function.server.ServerResponse;
 import reactor.core.publisher.Mono;
 
 @Component
-public class GreetingHandler {
+public class GreetingHandler { //обработчик для обработки запроса и создания ответа
 
     public Mono<ServerResponse> hello(ServerRequest request) {
+        //это простой реактивный класс, который возвращает String "Всем привет!".
         return ServerResponse.ok().contentType(MediaType.TEXT_PLAIN)
                 .body(BodyInserters.fromValue("Hello, Spring!"));
     }
